@@ -391,6 +391,7 @@ sub load_consoletests() {
             loadtest "console/http_srv.pm";
             loadtest "console/mysql_srv.pm";
             loadtest "console/dns_srv.pm";
+            loadtest "console/openvswitch.pm";
             if (check_var('ARCH', 'x86_64')) {
                 loadtest "console/docker.pm";
             }
